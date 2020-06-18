@@ -1,32 +1,7 @@
-// import React from 'react';
+import React from 'react';
 
-// const Post = () => {
-//   return <h1>pPosts</h1>;
-// };
+const Post = () => {
+  return <h1>pPosts</h1>;
+};
 
-// export default Post;
-
-export default class Home extends Component {
-  render() {
-    let { title, cats } = attributes;
-    return (
-      <>
-        <Head>
-          <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-        </Head>
-        <article>
-          <h1>{title}</h1>
-          <HomeContent />
-          <ul>
-            {cats.map((cat, k) => (
-              <li key={k}>
-                <h2>{cat.name}</h2>
-                <p>{cat.description}</p>
-              </li>
-            ))}
-          </ul>
-        </article>
-      </>
-    )
-  }
-}
+export default Post;
