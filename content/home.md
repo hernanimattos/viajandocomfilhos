@@ -11,6 +11,8 @@ cats:
   - description: aqui e voce
     name: teste
 ---
+![](/img/screen-shot-2020-06-17-at-18.18.12.png)
+
 Welcome to my awesome page about cats of the internet.
 
 This page is built with NextJS, and content is managed in Netlify CMS
