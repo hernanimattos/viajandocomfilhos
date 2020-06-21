@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
-const Post = () => {
-  return <h1>posrt aqui</h1>;
+const Post = ({ title, content }) => {
+  return (
+    <Fragment>
+      <h1>{title}</h1>
+      <article>{content}</article>
+    </Fragment>
+  );
 };
 
 export default Post;

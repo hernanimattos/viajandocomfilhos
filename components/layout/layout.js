@@ -1,30 +1,25 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import { Helmet } from 'react-helmet'
-import Menu from '../menu/menu'
-import Banner from '../banner/banner'
-import Intro from '../intro/intro'
-import Post from '../post/post'
+import React, { Fragment } from 'react';
+import Head from 'next/head';
+import Menu from '../menu/menu';
+import Banner from '../banner/banner';
 
-const Layout = () => {
+const Layout = ({ children, ...props }) => {
   return (
-    <>
-      <section id="header">
-        <Helmet>
-          <meta charSet="utf-8" />
-          <title>My Title</title>
-          <link rel="canonical" href="http://viajandocomfilhos.com.br" />
-        </Helmet>
-        <h1>
-          <Link to="/">Dopetrope</Link>
-        </h1>
-        <Menu />
-        <Banner />
-        <Intro />
+    <Fragment>
+      <Head>
+        <title>{props.title}</title>
+        <meta name="title" content={props.title} />
+        <meta name="description" content={props.description} />
+      </Head>
+      <section id="main">
+        <div className="container">
+          <Menu />
+          <Banner />
+          {children}
+        </div>
       </section>
-      <Post />
-    </>
-  )
-}
+    </Fragment>
+  );
+};
 
-export default Layout
+export default Layout;
