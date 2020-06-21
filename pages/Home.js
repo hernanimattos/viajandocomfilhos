@@ -9,7 +9,6 @@ const Home = () => {
   const { posts } = postAttributes;
   console.log(posts);
   return (
-    // <MyApp>
     <Layout title={title} description={description}>
       <Head>
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
