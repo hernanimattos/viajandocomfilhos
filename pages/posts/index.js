@@ -1,14 +1,35 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Layout from '../../components/layout/Layout';
 import { attributes as postAttributes } from '../../content/posts.md';
+import Posts from '../../containers/posts/posts';
 
-const Posts = () => {
-  const { posts } = postAttributes;
+const PostsPage = () => {
+  const [postAttrs, setPostAttrs] = useState({
+    title: '',
+    description: '',
+    posts: [],
+  });
+  const setAttr = (postAttributes) => {
+    const { posts, title, description } = postAttributes;
+    setPostAttrs({
+      title,
+      posts,
+      description,
+    });
+  };
+  useEffect(() => {
+    setAttr(postAttrs);
+  }, []);
+
   return (
-    <Layout title="aqui e posts">
-      <Posts posts={posts} />
+  
+    <Layout title={postAttrs.title} description={postAttrs.description}>
+    <Posts posts={postAttrs.posts} />
+    {/* <div>
+      posts
+    </div> */}
     </Layout>
   );
 };
 
-export default Posts;
+export default PostsPage;

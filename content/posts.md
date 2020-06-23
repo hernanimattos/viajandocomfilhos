@@ -1,5 +1,6 @@
 ---
-title: posts
+title: Página com diversos conteúdos sobre viagem
+description: Lugar onde temos muitas dicas de viagens com criancas e diversoes
 posts:
   - description: 'Página com c'
     title: Ipsum feugiat et dolor

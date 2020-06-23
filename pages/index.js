@@ -7,10 +7,10 @@ import { attributes as postAttributes } from '../content/posts.md';
 const Home = () => {
   let { title, description } = attributes;
   const { posts } = postAttributes;
-  console.log(posts);
+  console.log('home');
   return (
-    // <MyApp>
     <Layout title={title} description={description}>
+      home
       <Head>
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
       </Head>
