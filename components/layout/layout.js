@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import Head from 'next/head';
-import Menu from '../menu/Menu';
-import Banner from '../banner/Banner';
+import Menu from '../Menu/Menu';
+import Banner from '../Banner/Banner';
 
 const Layout = ({ children, ...props }) => {
   return (

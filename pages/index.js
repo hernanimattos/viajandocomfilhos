@@ -1,6 +1,6 @@
 import Head from 'next/head';
-import Layout from '../components/layout/Layout';
-import Posts from '../containers/posts/Posts';
+import Layout from '../components/Layout/Layout';
+import Posts from '../containers/Posts/Posts';
 import { attributes, react as HomeContent } from '../content/home.md';
 import { attributes as postAttributes } from '../content/posts.md';
 
