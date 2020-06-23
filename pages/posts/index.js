@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Layout from '../../components/layout/Layout';
 import { attributes as postAttributes } from '../../content/posts.md';
-import Posts from '../../containers/posts/posts';
+import Posts from '../../containers/posts/Posts';
 
 const PostsPage = () => {
   const [postAttrs, setPostAttrs] = useState({

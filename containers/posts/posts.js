@@ -1,4 +1,4 @@
-import Post from '../../components/post/post';
+import Post from '../../components/post/Post';
 
 const Posts = ({ posts }) => {
   return (

@@ -1,13 +1,13 @@
 import Head from 'next/head';
 import Layout from '../components/layout/Layout';
-import Posts from '../containers/posts/posts';
+import Posts from '../containers/posts/Posts';
 import { attributes, react as HomeContent } from '../content/home.md';
 import { attributes as postAttributes } from '../content/posts.md';
 
 const Home = () => {
   let { title, description } = attributes;
   const { posts } = postAttributes;
-  console.log('home');
+
   return (
     <Layout title={title} description={description}>
       home
