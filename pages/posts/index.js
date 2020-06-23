@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Layout from '../../components/layout/Layout';
+import Layout from '../../components/layout/Layout.js';
 import { attributes as postAttributes } from '../../content/posts.md';
 import Posts from '../../containers/posts/Posts';
 
