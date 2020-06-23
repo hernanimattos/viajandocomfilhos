@@ -22,12 +22,8 @@ const PostsPage = () => {
   }, []);
 
   return (
-  
     <Layout title={postAttrs.title} description={postAttrs.description}>
     <Posts posts={postAttrs.posts} />
-    {/* <div>
-      posts
-    </div> */}
     </Layout>
   );
 };
