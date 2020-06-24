@@ -27,5 +27,5 @@ collections:
             name: "post"
             widget: list
             fields:
-              - { label: "Title", title: "title", widget: "string"}
+              - { label: "Title", name: "title", widget: "string"}
               - { label: "Description", name: "description", widget: "text"}
