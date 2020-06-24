@@ -21,7 +21,7 @@ collections:
     files:
       - label: 'Post'
         name: 'Post'
-        file: 'content/posts.md'
+        file: 'content/posts.md'  
         fields:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Description', name: 'description', widget: 'string' }

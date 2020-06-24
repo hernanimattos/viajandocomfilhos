@@ -4,26 +4,10 @@ import { attributes as postAttributes } from '../../content/posts.md';
 import Posts from '../../containers/Posts/Posts';
 
 const PostsPage = () => {
-  const [postAttrs, setPostAttrs] = useState({
-    title: '',
-    description: '',
-    posts: [],
-  });
-  const setAttr = (postAttributes) => {
-    const { posts, title, description } = postAttributes;
-    setPostAttrs({
-      title,
-      posts,
-      description,
-    });
-  };
-  useEffect(() => {
-    setAttr(postAttrs);
-  }, []);
-
+  const { posts, title, description } = postAttributes;
   return (
-    <Layout title={postAttrs.title} description={postAttrs.description}>
-    <Posts posts={postAttrs.posts} />
+    <Layout title={title} description={description}>
+    <Posts posts={posts} />
     </Layout>
   );
 };
