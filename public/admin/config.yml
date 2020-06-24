@@ -16,12 +16,18 @@ collections:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Publish Date', name: 'date', widget: 'datetime' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
-      - label: 'Post'
-        name: 'post'
+      - label: 'Posts'
+        name: 'posts'
         file: 'content/posts.md'  
-        widget: list
         fields:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Description', name: 'description', widget: 'string' }
           - { label: 'Publish Date', name: 'date', widget: 'datetime' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
+          - label: 'Post'
+            widget: list
+            fields:
+              - { label: 'Title', name: 'title', widget: 'string' }
+              - { label: 'Description', name: 'description', widget: 'string' }
+              - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+              - { label: 'Body', name: 'body', widget: 'markdown' }
