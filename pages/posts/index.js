@@ -5,6 +5,7 @@ import Posts from '../../containers/Posts/Posts';
 
 const PostsPage = () => {
   const { post, title, description } = postAttributes;
+  console.log(post)
   return (
     <Layout title={title} description={description}>
     <Posts posts={post} />

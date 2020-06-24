@@ -1,6 +1,7 @@
 import Link from 'next/link';
 
 const Post = ({ title, description, thumbnail }) => {
+  console.table({ title, description, thumbnail })
   return (
     <div className="col-4 col-6-medium col-12-small">
       <section className="box">
@@ -15,7 +16,7 @@ const Post = ({ title, description, thumbnail }) => {
           <ul className="actions">
             <li>
               <a href="#" className="button alt">
-                Find out more
+                Find out more aqui
               </a>
             </li>
           </ul>

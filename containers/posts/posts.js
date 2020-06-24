@@ -15,6 +15,7 @@ const Posts = ({ posts }) => {
                     <Post
                       title={post.title}
                       description={post.description}
+                      thumbnail={post.thumbnail}
                       key={i}
                     />
                   );
