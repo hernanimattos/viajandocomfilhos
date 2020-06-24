@@ -6,7 +6,7 @@ import { attributes as postAttributes } from '../content/posts.md';
 
 const Home = () => {
   let { title, description } = attributes;
-  const { posts } = postAttributes;
+  const { post } = postAttributes;
 
   return (
     <Layout title={title} description={description}>
@@ -14,7 +14,7 @@ const Home = () => {
       <Head>
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
       </Head>
-      <Posts posts={posts} />
+      <Posts posts={post} />
     </Layout>
   );
 };

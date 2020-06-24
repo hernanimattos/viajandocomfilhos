@@ -4,10 +4,10 @@ import { attributes as postAttributes } from '../../content/posts.md';
 import Posts from '../../containers/Posts/Posts';
 
 const PostsPage = () => {
-  const { posts, title, description } = postAttributes;
+  const { post, title, description } = postAttributes;
   return (
     <Layout title={title} description={description}>
-    <Posts posts={posts} />
+    <Posts posts={post} />
     </Layout>
   );
 };
