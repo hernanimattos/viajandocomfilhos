@@ -21,7 +21,7 @@ collections:
         file: "content/posts.md"
         fields:
           - { label: "Title", name: "title", widget: "string"}
-          - { label: "Imagem", name: "title", widget: "image"}
+          - { label: "Imagem", name: "thumbnail", widget: "image"}
           - { label: "Body", name: "body", widget: "markdown"}
           - label: 'Post'
             name: "post"
@@ -29,4 +29,4 @@ collections:
             fields:
               - { label: "Title", name: "title", widget: "string"}
               - { label: "Description", name: "description", widget: "text"}
-              - { label: "Imgem", name: "title", widget: "image"}
+              - { label: "Imagem", name: "thumbnail", widget: "image"}
