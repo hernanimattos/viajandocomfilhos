@@ -4,9 +4,9 @@ backend:
 media_folder: public/img
 public_folder: img
 collections:
-  - name: 'pages'
+  - label: 'Pages'
+    name: 'pages'
     # create: true
-    label: 'Pages'
     files:
       - label: 'Home'
         name: 'home'
@@ -16,25 +16,24 @@ collections:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Description', name: 'description', widget: 'string' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: 'Dicas'
-    - label: 'Dicas'
-      name: 'dicas'
-      file: 'content/dicas.md'
-        # fields:
-        #   - { label: 'Title', name: 'title', widget: 'string' }
-        #   - { label: 'Imagem da página', name: 'thumbnail', widget: 'image' }
-        #   - { label: 'Body', name: 'body', widget: 'markdown' }
-        #   - label: 'Posts'
-        #     name: 'posts'
-        #     widget: 'list'
-        #     fields:
-        #       - { label: 'Title', name: 'title', widget: 'string' }
-        #       - { label: 'Description', name: 'description', widget: 'text' }
-        #       - { label: 'Imagem', name: 'thumbnail', widget: 'image' }
-        #       - { label: 'Imagem Banner', name: 'banner', widget: 'image' }
-        #       - {
-        #           label: 'Categoria',
-        #           name: 'Categoria',
-        #           widget: 'select',
-        #           options: ['home', 'dicas', 'nacional', 'internacional'],
-        #         }
+      - label: 'Dicas'
+        name: 'Dicas'
+        file: 'content/dicas.md'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Imagem da página', name: 'thumbnail', widget: 'image' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+          - label: 'Posts'
+            name: 'posts'
+            widget: 'list'
+            fields:
+              - { label: 'Title', name: 'title', widget: 'string' }
+              - { label: 'Description', name: 'description', widget: 'text' }
+              - { label: 'Imagem', name: 'thumbnail', widget: 'image' }
+              - { label: 'Imagem Banner', name: 'banner', widget: 'image' }
+              - {
+                  label: 'Categoria',
+                  name: 'Categoria',
+                  widget: 'select',
+                  options: ['home', 'dicas', 'nacional', 'internacional'],
+                }
