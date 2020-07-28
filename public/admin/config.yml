@@ -27,13 +27,31 @@ collections:
             name: 'post'
             widget: 'list'
             fields:
-              - { label: 'Title', name: 'title', widget: 'string' }
-              - { label: 'Description', name: 'description', widget: 'text' }
+              - { label: 'Title', name: 'post_title', widget: 'string' }
+              - { label: 'Body', name: 'body_post', widget: 'markdown' }
               - { label: 'Imagem', name: 'thumbnail', widget: 'image' }
-              - { label: 'Imagem Banner', name: 'banner', widget: 'image' }
+              - { label: 'Imagem Banner', name: 'banner_post', widget: 'image' }
               - {
-                  label: 'Categoria',
-                  name: 'Categoria',
-                  widget: 'select',
-                  options: ['home', 'dicas', 'nacional', 'internacional'],
+                  label: 'Home',
+                  name: 'home',
+                  widget: 'boolean',
+                  default: false,
+                }
+              - {
+                  label: 'Dicas',
+                  name: 'dicas',
+                  widget: 'boolean',
+                  default: false,
+                }
+              - {
+                  label: 'Nacional',
+                  name: 'nacional',
+                  widget: 'boolean',
+                  default: false,
+                }
+              - {
+                  label: 'Internacional',
+                  name: 'internacional',
+                  widget: 'boolean',
+                  default: false,
                 }
