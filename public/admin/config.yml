@@ -17,17 +17,23 @@ collections:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Description', name: 'description', widget: 'string' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
-      - label: "Posts"
-        name: "posts"
-        file: "content/posts.md"
+      - label: 'Posts'
+        name: 'posts'
+        file: 'content/posts.md'
         fields:
-          - { label: "Title", name: "title", widget: "string"}
-          - { label: "Imagem", name: "thumbnail", widget: "image"}
-          - { label: "Body", name: "body", widget: "markdown"}
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Imagem', name: 'thumbnail', widget: 'image' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
           - label: 'Post'
-            name: "post"
+            name: 'post'
             widget: list
             fields:
-              - { label: "Title", name: "title", widget: "string"}
-              - { label: "Description", name: "description", widget: "text"}
-              - { label: "Imagem", name: "thumbnail", widget: "image"}
+              - { label: 'Title', name: 'title', widget: 'string' }
+              - { label: 'Description', name: 'description', widget: 'text' }
+              - { label: 'Imagem', name: 'thumbnail', widget: 'image' }
+              - {
+                  label: 'Categoria',
+                  name: 'Categoria',
+                  widget: 'select',
+                  options: ['home', 'dicas', 'nacional', 'internacional'],
+                }
