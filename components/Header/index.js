@@ -1,13 +1,11 @@
 import React, { Fragment } from 'react';
 import Link from 'next/link';
-import Menu from '../Menu/Menu';
-import Banner from '../Banner/Banner';
+import Menu from '../Menu';
 
 const Header = () => {
 	return (
 		<Fragment>
 			<Menu />
-			<Banner />
 			{/* <div className='bg-gray-200 p-3 shadow-md'>
 				<div className='container mx-auto'>
 					<Link href='/'>

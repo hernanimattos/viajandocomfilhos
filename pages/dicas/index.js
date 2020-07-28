@@ -1,13 +1,14 @@
 import React from 'react';
 import Link from 'next/link';
+import Layout from '../../components/Layout';
 import { attributes as postAttributes } from '../../content/posts.md';
 import Posts from '../../containers/Posts';
 const Dicas = () => {
 	const { post, title, description } = postAttributes;
 	return (
-		<div>
+		<Layout title={title} description={description}>
 			<Posts posts={post} />
-		</div>
+		</Layout>
 	);
 };
 export default Dicas;

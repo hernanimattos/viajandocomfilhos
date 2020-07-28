@@ -39,12 +39,6 @@ const Menu = () => {
 					</div>
 				</div>
 			</div>
-
-			<style jsx>{`
-				// .logo {
-				// 	width: 60px;
-				// }
-			`}</style>
 		</nav>
 	);
 };
