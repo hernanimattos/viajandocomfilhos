@@ -36,22 +36,26 @@ collections:
                   name: 'home',
                   widget: 'boolean',
                   default: false,
+                  required: false,
                 }
               - {
                   label: 'Dicas',
                   name: 'dicas',
                   widget: 'boolean',
                   default: false,
+                  required: false,
                 }
               - {
                   label: 'Nacional',
                   name: 'nacional',
                   widget: 'boolean',
                   default: false,
+                  required: false,
                 }
               - {
                   label: 'Internacional',
                   name: 'internacional',
                   widget: 'boolean',
                   default: false,
+                  required: false,
                 }
