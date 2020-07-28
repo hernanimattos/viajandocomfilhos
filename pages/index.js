@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Layout from '../components/Layout';
 import Posts from '../containers/Posts';
 import { attributes, react as HomeContent } from '../content/home.md';
-import { attributes as postAttributes } from '../content/posts.md';
+import { attributes as postAttributes } from '../content/dicas.md';
 
 const Home = () => {
 	let { title, description } = attributes;

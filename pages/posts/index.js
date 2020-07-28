@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Layout from '../../components/Layout';
-import { attributes as postAttributes } from '../../content/posts.md';
+import { attributes as postAttributes } from '../../content/dicas.md';
 import Posts from '../../containers/Posts';
 
 const PostsPage = () => {
