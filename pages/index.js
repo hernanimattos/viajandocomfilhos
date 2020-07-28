@@ -3,7 +3,6 @@ import Layout from '../components/Layout';
 import Posts from '../containers/Posts';
 import { attributes, react as HomeContent } from '../content/home.md';
 import { attributes as postAttributes } from '../content/dicas.md';
-console.log(postAttributes, 'pp');
 
 const Home = () => {
 	let { title, description } = attributes;
