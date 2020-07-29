@@ -6,7 +6,6 @@ const Layout = ({ children, ...props }) => {
 	return (
 		<Fragment>
 			<Head>
-				<title>{props.title}</title>
 				<meta name='title' content={props.title} />
 				<meta name='description' content={props.description} />
 			</Head>
