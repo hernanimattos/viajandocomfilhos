@@ -2,7 +2,6 @@ import React, { Fragment } from 'react';
 import Post from '../../components/Post';
 
 const Posts = ({ posts }) => {
-	console.log(posts, 'pppp');
 	return (
 		<Fragment>
 			<section className='px-2'>
