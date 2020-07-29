@@ -10,7 +10,6 @@ const Home = () => {
 
 	return (
 		<Layout title={title} description={description}>
-			home
 			<Head>
 				<script src='https://identity.netlify.com/v1/netlify-identity-widget.js'></script>
 			</Head>

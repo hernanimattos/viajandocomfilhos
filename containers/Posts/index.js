@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 import Post from '../../components/Post';
 
 const Posts = ({ posts }) => {
+	console.log(posts);
 	return (
 		<Fragment>
 			<section className='px-2'>
@@ -10,8 +11,8 @@ const Posts = ({ posts }) => {
 						? posts.map((post, i) => {
 								return (
 									<Post
-										title={post.title}
-										description={post.description}
+										title={post.post_title}
+										description={post.body_post}
 										thumbnail={post.thumbnail}
 										key={i}
 									/>

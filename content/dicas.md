@@ -1,5 +1,5 @@
 ---
-title: Aqui
+title: Dicas de viajens
 thumbnail: /img/paolo-nicolello-2goxkj594nm-unsplash.jpg
 post:
   - banner_post: /img/paolo-nicolello-2goxkj594nm-unsplash.jpg
