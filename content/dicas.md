@@ -1,31 +1,31 @@
 ---
 title: Dicas de viajens
-thumbnail: /img/paolo-nicolello-2goxkj594nm-unsplash.jpg
+thumbnail: /img/custom-img.jpg
 post:
-  - banner_post: /img/paolo-nicolello-2goxkj594nm-unsplash.jpg
+  - banner_post: /img/custom-img.jpg
     body_post: aqui esta voce
     dicas: true
     home: true
     post_title: Chile
-    thumbnail: /img/paolo-nicolello-2goxkj594nm-unsplash.jpg
-  - banner_post: /img/paolo-nicolello-2goxkj594nm-unsplash.jpg
+    thumbnail: /img/custom-img.jpg
+  - banner_post: /img/custom-img.jpg
     body_post: aqui esta voce
     dicas: true
     home: true
     post_title: Chile
-    thumbnail: /img/paolo-nicolello-2goxkj594nm-unsplash.jpg
-  - banner_post: /img/paolo-nicolello-2goxkj594nm-unsplash.jpg
+    thumbnail: /img/custom-img.jpg
+  - banner_post: /img/custom-img.jpg
     body_post: aqui esta voce
     dicas: true
     home: true
     post_title: Chile
-    thumbnail: /img/paolo-nicolello-2goxkj594nm-unsplash.jpg
-  - banner_post: /img/paolo-nicolello-2goxkj594nm-unsplash.jpg
+    thumbnail: /img/custom-img.jpg
+  - banner_post: /img/custom-img.jpg
     body_post: aqui esta voce
     dicas: true
     home: true
     post_title: Chile
-    thumbnail: /img/paolo-nicolello-2goxkj594nm-unsplash.jpg
+    thumbnail: /img/custom-img.jpg
 ---
 
 aqui
