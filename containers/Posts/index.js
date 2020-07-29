@@ -6,7 +6,7 @@ const Posts = ({ posts }) => {
 	return (
 		<Fragment>
 			<section className='px-2'>
-				<div className='flex -mx-2 flex-wrap justify-between'>
+				<div className='flex -mx-2 flex-wrap '>
 					{posts
 						? posts.map((post, i) => {
 								return (
