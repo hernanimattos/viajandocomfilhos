@@ -1,30 +1,27 @@
+import React, { Fragment } from 'react';
 import Post from '../../components/Post';
 
 const Posts = ({ posts }) => {
+	console.log(posts, 'pppp');
 	return (
-		<div className='row'>
-			<div className='col-12'>
-				<section>
-					<header className='major'>
-						<h2>Ultimas dicas de viajens</h2>
-					</header>
-					<div className='row'>
-						{posts
-							? posts.map((post, i) => {
-									return (
-										<Post
-											title={post.title}
-											description={post.description}
-											thumbnail={post.thumbnail}
-											key={i}
-										/>
-									);
-							  })
-							: ''}
-					</div>
-				</section>
-			</div>
-		</div>
+		<Fragment>
+			<section className='px-2'>
+				<div className='flex -mx-2 flex-wrap justify-between'>
+					{posts
+						? posts.map((post, i) => {
+								return (
+									<Post
+										title={post.title}
+										description={post.description}
+										thumbnail={post.thumbnail}
+										key={i}
+									/>
+								);
+						  })
+						: ''}
+				</div>
+			</section>
+		</Fragment>
 	);
 };
 
